@@ -1,0 +1,32 @@
+* {
+background-color: rgb(243, 245, 245);
+
+}
+
+/*Create game*/
+#game{
+    background-image: url(./assets/Background/Day-Time.png);
+    background-repeat: x-repeat;
+    background-color: rgb(187, 255, 255);
+    width: 80vw;
+    height: 90vh; 
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+/* Create block */
+#block{
+    background-color: black;
+    width: 120px;
+    height: 300px;
+    position: relative;
+    left:400px;
+    animation: block 1s infinite linear;
+}
+
+/* @keyframes block{
+    0%{left:400px}
+   100%{left:-50px}
+} */
