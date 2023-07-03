@@ -1,32 +1,134 @@
 * {
-background-color: rgb(243, 245, 245);
+/* background-color: rgb(243, 245, 245); */
 
 }
 
 /*Create game*/
 #game{
     background-image: url(./assets/Background/Day-Time.png);
-    background-repeat: x-repeat;
+
     background-color: rgb(187, 255, 255);
-    width: 80vw;
+    width: 60vw;
     height: 90vh; 
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
   
 }
+/* Add Clouds*/
+#cloud1 {
+    position: relative;
+    left: 500px;
+    top:0px;
+    animation: cloud 6s infinite linear;
+    
+}
+
+#cloud2 {
+    position: relative;
+    left: 50px;
+    top: 150px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud3 {
+    position: relative;
+    left: 500px;
+    top: 300px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud4 {
+    position: relative;
+    left: 500px;
+    top: 500px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud5 {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud6 {
+    position: relative;
+    left: 500px;
+    top: 300px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud7 {
+    position: relative;
+    left: 500px;
+    top: 500px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud8 {
+    position: relative;
+    left: 500px;
+    top: 800px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud9 {
+    position: relative;
+    left: 50px;
+    top: 100px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud10 {
+    position: relative;
+    left: 500px;
+    top: 300px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud11 {
+    position: relative;
+    left: 500px;
+    top: 500px;
+    animation: cloud 6s infinite linear;
+
+}
+
+#cloud12 {
+    position: relative;
+    left: 500px;
+    top: 800px;
+    animation: cloud 6s infinite linear;
+
+}
 
 /* Create block */
-#block{
-    background-color: black;
+/* #block{
+    background-color: rgb(20, 206, 100);
     width: 120px;
     height: 300px;
     position: relative;
-    left:400px;
+    left: 500px;
     animation: block 1s infinite linear;
-}
+} */
 
 /* @keyframes block{
     0%{left:400px}
    100%{left:-50px}
-} */
+} 
+ */
+
+ @keyframes cloud{
+     0%{left: 400px}
+     100%{left: -50px}
+    }
